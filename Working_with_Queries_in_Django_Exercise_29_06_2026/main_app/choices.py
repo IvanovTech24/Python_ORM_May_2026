@@ -14,3 +14,24 @@ class OSChoices(models.TextChoices):
     MACOS = 'MacOS', 'MacOS'
     LINUX = 'Linux', 'Linux'
     CHROME_OS = 'Chrome_OS', 'Chrome_OS'
+
+
+class MealTypeChoices(models.TextChoices):
+    BREAKFAST = 'Breakfast', 'Breakfast'
+    LUNCH = 'Lunch', 'Lunch'
+    DINNER = 'Dinner', 'Dinner'
+    SNACK = 'Snack', 'Snack'
+
+
+class DifficultyChoices(models.TextChoices):
+    EASY = 'Easy', 'Easy'
+    MEDIUM = 'Medium', 'Medium'
+    HARD = 'Hard', 'Hard'
+
+
+class WorkoutTypeChoices(models.TextChoices):
+    CARDIO = 'Cardio', 'Cardio'
+    STRENGTH = 'Strength', 'Strength'
+    YOGA = 'Yoga', 'Yoga'
+    CROSSFIT = 'Crossfit', 'Crossfit'
+    CALISTHENICS = 'Calisthenics', 'Calisthenics'
